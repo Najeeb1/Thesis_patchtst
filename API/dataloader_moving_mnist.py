@@ -13,10 +13,8 @@ def load_mnist(root):
     with gzip.open(path, 'rb') as f:
         mnist = np.frombuffer(f.read(), np.uint8, offset=16)
         mnist = mnist.reshape(-1, 28, 28)
-    num_samples = int(len(mnist) * 0.01)
-    print(f'train before: {mnist.shape}')
-    print(f'train now: {mnist[:num_samples].shape}')
-    return mnist[:num_samples]
+    return mnist
+
 
 def load_fixed_set(root):
     # Load the fixed dataset
@@ -24,10 +22,7 @@ def load_fixed_set(root):
     path = os.path.join(root, filename)
     dataset = np.load(path)
     dataset = dataset[..., np.newaxis]
-    num_samples = int(dataset.shape[1] * 0.01)
-    print(f'test before: {dataset.shape}')
-    print(f'test now: {dataset[:, :num_samples, :, :, :].shape}')
-    return dataset[:, :num_samples, :, :, :]
+    return dataset
 
 
 class MovingMNIST(data.Dataset):
@@ -157,53 +152,12 @@ def load_data(
     test_set = MovingMNIST(root=data_root, is_train=False,
                            n_frames_input=10, n_frames_output=10, num_objects=[2])
 
-    mean = 0
-    std = 1
-
-    # Calculate the total number of samples in the datasets
-    total_train_samples = len(train_set)
-    total_test_samples = len(test_set)
-
-    # Calculate the number of samples to select (one-hundredth of the total)
-    train_num_samples = total_train_samples // 100
-    test_num_samples = total_test_samples // 100
-
-    # Create random indices for selecting a subset of the datasets
-    train_subset_indices = torch.randperm(total_train_samples)[:train_num_samples]
-    test_subset_indices = torch.randperm(total_test_samples)[:test_num_samples]
-
-    # Create subsets of the datasets using the selected indices
-    train_subset = torch.utils.data.Subset(train_set, train_subset_indices)
-    test_subset = torch.utils.data.Subset(test_set, test_subset_indices)
-    
-
-    # Create DataLoaders for the subset datasets
     dataloader_train = torch.utils.data.DataLoader(
-        train_subset, batch_size=batch_size, shuffle=True, pin_memory=True, num_workers=num_workers)
+        train_set, batch_size=batch_size, shuffle=True, pin_memory=True, num_workers=num_workers)
     dataloader_validation = torch.utils.data.DataLoader(
-        test_subset, batch_size=val_batch_size, shuffle=False, pin_memory=True, num_workers=num_workers)
+        test_set, batch_size=val_batch_size, shuffle=False, pin_memory=True, num_workers=num_workers)
     dataloader_test = torch.utils.data.DataLoader(
-        test_subset, batch_size=val_batch_size, shuffle=False, pin_memory=True, num_workers=num_workers)
+        test_set, batch_size=val_batch_size, shuffle=False, pin_memory=True, num_workers=num_workers)
 
+    mean, std = 0, 1
     return dataloader_train, dataloader_validation, dataloader_test, mean, std
-
-# def load_data(
-#         batch_size, val_batch_size,
-#         data_root, num_workers):
-
-#     train_set = MovingMNIST(root=data_root, is_train=True,
-#                             n_frames_input=10, n_frames_output=10, num_objects=[2])
-#     test_set = MovingMNIST(root=data_root, is_train=False,
-#                            n_frames_input=10, n_frames_output=10, num_objects=[2])
-
-#     dataloader_train = torch.utils.data.DataLoader(
-#         train_set, batch_size=batch_size, shuffle=True, pin_memory=True, num_workers=num_workers)
-#     dataloader_validation = torch.utils.data.DataLoader(
-#         test_set, batch_size=val_batch_size, shuffle=False, pin_memory=True, num_workers=num_workers)
-#     dataloader_test = torch.utils.data.DataLoader(
-#         test_set, batch_size=val_batch_size, shuffle=False, pin_memory=True, num_workers=num_workers)
-
-#     mean, std = 0, 1
-
-#     return dataloader_train, dataloader_validation, dataloader_test, mean, std
-
