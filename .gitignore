@@ -1,4 +1,7 @@
-resutls/
-data/
 **/__pycache__
 **/.ipynb_checkpoints
+results/
+*.npy
+*.npz
+*.gz
+data/
