@@ -1,0 +1,2329 @@
+2023-10-26 22:55:36,287 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	16	
+val_batch_size: 	16	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	4	
+N_T: 	8	
+groups: 	4	
+epochs: 	3	
+log_step: 	1	
+lr: 	0.01	
+2023-10-27 22:34:43,088 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	16	
+val_batch_size: 	16	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	4	
+N_T: 	8	
+groups: 	4	
+epochs: 	3	
+log_step: 	1	
+lr: 	0.01	
+2024-01-02 15:09:08,271 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	16	
+val_batch_size: 	16	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	4	
+N_T: 	8	
+groups: 	4	
+epochs: 	3	
+log_step: 	1	
+lr: 	0.01	
+2024-01-02 16:14:58,547 - vali mse:120.2191, mae:279.2677, ssim:0.6121, psnr:33.3052
+2024-01-02 16:14:59,342 - Epoch: 1 | Train Loss: 0.0343 Vali Loss: 0.0294
+
+2024-01-02 17:23:01,449 - vali mse:109.1568, mae:272.6663, ssim:0.5767, psnr:33.1230
+2024-01-02 17:23:01,543 - Epoch: 2 | Train Loss: 0.0273 Vali Loss: 0.0266
+
+2024-01-02 18:43:02,369 - vali mse:102.8028, mae:237.9225, ssim:0.6802, psnr:34.1800
+2024-01-02 18:43:02,427 - Epoch: 3 | Train Loss: 0.0253 Vali Loss: 0.0251
+
+2024-01-02 19:35:40,236 - mse:102.3317, mae:236.8414, ssim:0.6813, psnr:34.2004
+2024-01-02 19:52:34,969 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	16	
+val_batch_size: 	16	
+data_root: 	./data/	
+dataname: 	taxibj	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	4	
+N_T: 	8	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-01-02 20:13:15,939 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	16	
+val_batch_size: 	16	
+data_root: 	./data/	
+dataname: 	taxibj	
+num_workers: 	8	
+in_shape: 	[4, 2, 32, 32]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	4	
+N_T: 	8	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-01-02 20:34:33,533 - vali mse:1.3123, mae:30.7957, ssim:0.9322, psnr:35.5905
+2024-01-02 20:34:34,110 - Epoch: 1 | Train Loss: 0.0025 Vali Loss: 0.0006
+
+2024-01-02 20:58:09,814 - vali mse:0.7681, mae:22.6400, ssim:0.9641, psnr:37.2528
+2024-01-02 20:58:09,832 - Epoch: 2 | Train Loss: 0.0005 Vali Loss: 0.0004
+
+2024-01-02 20:59:20,659 - mse:0.7681, mae:22.6400, ssim:0.9641, psnr:37.2528
+2024-01-02 21:29:47,437 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	16	
+val_batch_size: 	16	
+data_root: 	./data/	
+dataname: 	taxibj	
+num_workers: 	8	
+in_shape: 	[4, 2, 32, 32]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	4	
+N_T: 	8	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-01-02 21:51:55,234 - vali mse:1.3123, mae:30.7957, ssim:0.9322, psnr:35.5905
+2024-01-02 21:51:55,734 - Epoch: 1 | Train Loss: 0.0025 Vali Loss: 0.0006
+
+2024-01-02 22:13:30,599 - vali mse:0.7681, mae:22.6400, ssim:0.9641, psnr:37.2528
+2024-01-02 22:13:30,616 - Epoch: 2 | Train Loss: 0.0005 Vali Loss: 0.0004
+
+2024-01-02 22:14:36,677 - mse:0.7681, mae:22.6400, ssim:0.9641, psnr:37.2528
+2024-01-03 13:40:00,373 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	16	
+val_batch_size: 	16	
+data_root: 	./data/	
+dataname: 	kth	
+num_workers: 	8	
+in_shape: 	[10, 1, 128, 128]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	4	
+N_T: 	8	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-01-03 14:28:12,264 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	16	
+val_batch_size: 	16	
+data_root: 	./data/	
+dataname: 	kth	
+num_workers: 	8	
+in_shape: 	[10, 1, 128, 128]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	4	
+N_T: 	8	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-01-03 14:53:16,068 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	16	
+val_batch_size: 	16	
+data_root: 	./data/	
+dataname: 	kth	
+num_workers: 	8	
+in_shape: 	[10, 1, 128, 128]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	4	
+N_T: 	8	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-01-03 15:34:52,305 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	8	
+val_batch_size: 	8	
+data_root: 	./data/	
+dataname: 	kth	
+num_workers: 	8	
+in_shape: 	[10, 1, 128, 128]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	4	
+N_T: 	8	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-01-03 16:53:30,712 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	kth	
+num_workers: 	8	
+in_shape: 	[10, 1, 128, 128]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-01-03 17:38:29,043 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	kth	
+num_workers: 	8	
+in_shape: 	[10, 1, 128, 128]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-01-03 17:44:01,249 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	kth	
+num_workers: 	8	
+in_shape: 	[10, 1, 128, 128]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-01-03 18:28:02,997 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	kth	
+num_workers: 	8	
+in_shape: 	[10, 1, 128, 128]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-01-04 14:15:05,298 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	kth	
+num_workers: 	8	
+in_shape: 	[10, 1, 128, 128]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	6	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-01-04 14:32:02,535 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	kth	
+num_workers: 	8	
+in_shape: 	[10, 1, 128, 128]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	6	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-01-04 15:18:48,998 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	kth	
+num_workers: 	8	
+in_shape: 	[10, 1, 128, 128]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	6	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-01-04 16:28:46,854 - vali mse:458.6763, mae:2064.6675, ssim:0.8444, psnr:28.6360
+2024-01-04 16:28:47,464 - Epoch: 1 | Train Loss: 0.0115 Vali Loss: 0.0280
+
+2024-01-04 17:40:25,936 - vali mse:407.6670, mae:1903.3187, ssim:0.8529, psnr:29.0871
+2024-01-04 17:40:26,228 - Epoch: 2 | Train Loss: 0.0036 Vali Loss: 0.0249
+
+2024-01-04 17:57:27,827 - mse:400.0885, mae:1881.0559, ssim:0.8576, psnr:29.1199
+2024-02-07 18:07:41,869 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 18:16:30,285 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 18:18:30,101 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 18:19:21,458 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 18:19:56,906 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 21:44:26,020 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 21:45:01,483 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 21:47:21,172 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 21:50:26,920 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 21:54:11,349 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 21:54:47,402 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 21:56:27,783 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 21:57:32,427 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 22:04:14,906 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 22:16:22,574 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 22:24:57,439 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 22:25:42,940 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 22:25:56,202 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 22:26:49,554 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 22:29:42,667 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 23:09:25,123 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-07 23:14:58,950 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 13:42:18,678 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 13:45:13,792 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 13:54:24,731 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 13:58:44,245 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 13:59:26,862 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 14:04:51,357 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 14:13:23,934 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 14:19:24,556 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 14:22:48,866 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 14:36:07,652 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 14:36:53,067 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 14:47:12,380 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 14:56:29,092 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 14:58:38,359 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 15:03:50,850 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 15:20:25,301 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 15:22:49,687 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 15:24:04,422 - vali mse:132.3310, mae:341.8525, ssim:0.1972, psnr:29.2515
+2024-02-08 15:24:04,508 - Epoch: 1 | Train Loss: 0.0841 Vali Loss: 0.0323
+
+2024-02-08 15:25:18,057 - vali mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-08 15:25:18,060 - Epoch: 2 | Train Loss: 0.0363 Vali Loss: 0.0305
+
+2024-02-08 15:25:32,669 - mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-08 17:47:38,085 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	10	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 17:49:18,789 - vali mse:148.3044, mae:277.0415, ssim:0.6105, psnr:35.4710
+2024-02-08 17:49:18,909 - Epoch: 1 | Train Loss: 0.0906 Vali Loss: 0.0362
+
+2024-02-08 17:50:47,784 - vali mse:127.8614, mae:354.9656, ssim:0.2424, psnr:29.5798
+2024-02-08 17:50:47,787 - Epoch: 2 | Train Loss: 0.0377 Vali Loss: 0.0312
+
+2024-02-08 17:52:35,464 - vali mse:126.5564, mae:310.0630, ssim:0.3885, psnr:30.9255
+2024-02-08 17:52:35,467 - Epoch: 3 | Train Loss: 0.0351 Vali Loss: 0.0309
+
+2024-02-08 17:54:06,635 - vali mse:127.9924, mae:322.4199, ssim:0.4264, psnr:31.2264
+2024-02-08 17:54:06,640 - Epoch: 4 | Train Loss: 0.0325 Vali Loss: 0.0312
+
+2024-02-08 17:55:35,465 - vali mse:115.7820, mae:296.9478, ssim:0.4377, psnr:31.2181
+2024-02-08 17:55:35,478 - Epoch: 5 | Train Loss: 0.0328 Vali Loss: 0.0283
+
+2024-02-08 17:57:15,168 - vali mse:122.0500, mae:302.1316, ssim:0.5308, psnr:32.2443
+2024-02-08 17:57:15,171 - Epoch: 6 | Train Loss: 0.0317 Vali Loss: 0.0298
+
+2024-02-08 17:58:46,620 - vali mse:116.8758, mae:291.8510, ssim:0.4678, psnr:31.6834
+2024-02-08 17:58:46,624 - Epoch: 7 | Train Loss: 0.0331 Vali Loss: 0.0285
+
+2024-02-08 18:00:19,353 - vali mse:118.2855, mae:284.4525, ssim:0.5619, psnr:32.6799
+2024-02-08 18:00:19,356 - Epoch: 8 | Train Loss: 0.0315 Vali Loss: 0.0289
+
+2024-02-08 18:01:49,814 - vali mse:109.1880, mae:275.7957, ssim:0.5561, psnr:32.4080
+2024-02-08 18:01:49,817 - Epoch: 9 | Train Loss: 0.0299 Vali Loss: 0.0267
+
+2024-02-08 18:03:29,597 - vali mse:109.9780, mae:285.9649, ssim:0.4865, psnr:31.8459
+2024-02-08 18:03:29,600 - Epoch: 10 | Train Loss: 0.0318 Vali Loss: 0.0269
+
+2024-02-08 18:03:49,856 - mse:109.1880, mae:275.7957, ssim:0.5561, psnr:32.4080
+2024-02-08 18:47:11,773 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 18:52:27,581 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-08 18:54:48,140 - vali mse:132.3310, mae:341.8525, ssim:0.1972, psnr:29.2515
+2024-02-08 18:54:48,244 - Epoch: 1 | Train Loss: 0.0841 Vali Loss: 0.0323
+
+2024-02-08 18:56:52,814 - vali mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-08 18:56:52,817 - Epoch: 2 | Train Loss: 0.0363 Vali Loss: 0.0305
+
+2024-02-08 18:57:18,794 - mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-12 17:53:46,100 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-12 17:55:15,717 - vali mse:132.3310, mae:341.8525, ssim:0.1972, psnr:29.2515
+2024-02-12 17:55:15,813 - Epoch: 1 | Train Loss: 0.0841 Vali Loss: 0.0323
+
+2024-02-12 17:56:55,560 - vali mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-12 17:56:55,565 - Epoch: 2 | Train Loss: 0.0363 Vali Loss: 0.0305
+
+2024-02-12 17:57:12,833 - mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-12 17:58:25,946 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-12 17:59:56,907 - vali mse:132.3310, mae:341.8525, ssim:0.1972, psnr:29.2515
+2024-02-12 17:59:57,015 - Epoch: 1 | Train Loss: 0.0841 Vali Loss: 0.0323
+
+2024-02-12 18:01:35,805 - vali mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-12 18:01:35,810 - Epoch: 2 | Train Loss: 0.0363 Vali Loss: 0.0305
+
+2024-02-12 18:01:51,897 - mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-12 18:06:45,370 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-12 18:08:21,625 - vali mse:132.3310, mae:341.8525, ssim:0.1972, psnr:29.2515
+2024-02-12 18:08:21,714 - Epoch: 1 | Train Loss: 0.0841 Vali Loss: 0.0323
+
+2024-02-12 18:09:54,536 - vali mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-12 18:09:54,540 - Epoch: 2 | Train Loss: 0.0363 Vali Loss: 0.0305
+
+2024-02-12 18:10:13,080 - mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-13 14:52:17,826 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-13 14:53:41,234 - vali mse:132.3310, mae:341.8525, ssim:0.1972, psnr:29.2515
+2024-02-13 14:53:41,331 - Epoch: 1 | Train Loss: 0.0841 Vali Loss: 0.0323
+
+2024-02-13 14:55:02,275 - vali mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-13 14:55:02,280 - Epoch: 2 | Train Loss: 0.0363 Vali Loss: 0.0305
+
+2024-02-13 14:55:18,477 - mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-13 14:57:14,073 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-13 14:58:40,091 - vali mse:132.3310, mae:341.8525, ssim:0.1972, psnr:29.2515
+2024-02-13 14:58:40,172 - Epoch: 1 | Train Loss: 0.0841 Vali Loss: 0.0323
+
+2024-02-13 15:03:54,703 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-13 15:05:16,761 - vali mse:132.3310, mae:341.8525, ssim:0.1972, psnr:29.2515
+2024-02-13 15:05:16,835 - Epoch: 1 | Train Loss: 0.0841 Vali Loss: 0.0323
+
+2024-02-13 15:06:40,201 - vali mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-13 15:06:40,204 - Epoch: 2 | Train Loss: 0.0363 Vali Loss: 0.0305
+
+2024-02-13 15:06:54,791 - mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-13 15:08:18,236 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-13 15:09:40,020 - vali mse:132.3310, mae:341.8525, ssim:0.1972, psnr:29.2515
+2024-02-13 15:09:40,098 - Epoch: 1 | Train Loss: 0.0841 Vali Loss: 0.0323
+
+2024-02-13 15:10:58,246 - vali mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-13 15:10:58,251 - Epoch: 2 | Train Loss: 0.0363 Vali Loss: 0.0305
+
+2024-02-13 15:11:16,358 - mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-13 15:14:47,454 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-13 15:16:09,596 - vali mse:132.3310, mae:341.8525, ssim:0.1972, psnr:29.2515
+2024-02-13 15:16:09,672 - Epoch: 1 | Train Loss: 0.0841 Vali Loss: 0.0323
+
+2024-02-13 15:17:25,519 - vali mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-13 15:17:25,523 - Epoch: 2 | Train Loss: 0.0363 Vali Loss: 0.0305
+
+2024-02-13 15:17:42,245 - mse:124.7845, mae:323.8950, ssim:0.3202, psnr:30.1624
+2024-02-14 19:07:22,412 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-14 19:10:17,223 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-14 19:12:33,619 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-14 22:40:49,134 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-14 22:43:14,075 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-14 22:44:09,121 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-14 22:47:14,130 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-14 22:50:18,626 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-14 22:57:43,549 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-14 23:04:48,750 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-14 23:06:29,303 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-14 23:09:03,752 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 13:56:39,756 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 14:04:15,500 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 16:14:26,448 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 16:15:57,262 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 17:03:00,412 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 17:05:28,051 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 17:18:10,916 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 17:24:56,307 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 17:28:18,434 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 17:41:11,173 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 17:45:18,874 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 17:47:32,829 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 17:53:00,564 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 17:54:37,632 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 17:55:33,757 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 19:27:53,486 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 19:40:39,509 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 20:24:29,892 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 20:28:45,709 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 20:30:33,004 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-19 20:34:02,259 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-20 13:42:58,574 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-20 13:47:22,598 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	2	
+log_step: 	1	
+lr: 	0.01	
+2024-02-20 13:59:09,958 - vali mse:139.5114, mae:327.1658, ssim:0.1562, psnr:28.5830
+2024-02-20 13:59:10,011 - Epoch: 1 | Train Loss: 0.0920 Vali Loss: 0.0341
+
+2024-02-20 14:12:06,794 - vali mse:137.0410, mae:329.5703, ssim:0.1363, psnr:27.7198
+2024-02-20 14:12:06,805 - Epoch: 2 | Train Loss: 0.0384 Vali Loss: 0.0335
+
+2024-02-20 14:12:25,981 - mse:137.0410, mae:329.5703, ssim:0.1363, psnr:27.7198
+2024-02-20 14:31:39,172 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	10	
+log_step: 	1	
+lr: 	0.01	
+2024-02-20 14:45:35,268 - vali mse:169.7496, mae:362.5840, ssim:0.7765, psnr:39.6936
+2024-02-20 14:45:35,309 - Epoch: 1 | Train Loss: 0.1015 Vali Loss: 0.0414
+
+2024-02-20 15:18:23,353 - vali mse:137.4853, mae:257.8298, ssim:0.3150, psnr:31.9044
+2024-02-20 15:18:23,364 - Epoch: 2 | Train Loss: 0.0402 Vali Loss: 0.0336
+
+2024-02-20 15:32:30,829 - vali mse:138.4300, mae:319.0733, ssim:0.1649, psnr:28.7807
+2024-02-20 15:32:30,840 - Epoch: 3 | Train Loss: 0.0381 Vali Loss: 0.0338
+
+2024-02-20 15:45:41,165 - vali mse:135.9673, mae:307.6636, ssim:0.1731, psnr:28.6915
+2024-02-20 15:45:41,179 - Epoch: 4 | Train Loss: 0.0369 Vali Loss: 0.0332
+
+2024-02-20 16:10:54,303 - vali mse:133.9405, mae:354.3667, ssim:0.1796, psnr:28.7571
+2024-02-20 16:10:54,315 - Epoch: 5 | Train Loss: 0.0370 Vali Loss: 0.0327
+
+2024-02-20 16:23:13,182 - vali mse:132.8116, mae:295.2986, ssim:0.3134, psnr:29.2525
+2024-02-20 16:23:13,201 - Epoch: 6 | Train Loss: 0.0364 Vali Loss: 0.0324
+
+2024-02-20 16:36:27,915 - vali mse:132.1537, mae:331.9462, ssim:0.2225, psnr:29.2674
+2024-02-20 16:36:27,927 - Epoch: 7 | Train Loss: 0.0369 Vali Loss: 0.0323
+
+2024-02-20 17:44:33,951 - vali mse:131.9994, mae:333.8776, ssim:0.2318, psnr:28.9491
+2024-02-20 17:44:33,962 - Epoch: 8 | Train Loss: 0.0367 Vali Loss: 0.0322
+
+2024-02-20 17:57:55,441 - vali mse:131.9785, mae:330.9181, ssim:0.2315, psnr:29.1189
+2024-02-20 17:57:55,454 - Epoch: 9 | Train Loss: 0.0366 Vali Loss: 0.0322
+
+2024-02-20 18:10:24,860 - vali mse:132.0372, mae:332.5393, ssim:0.2281, psnr:29.0710
+2024-02-20 18:10:24,874 - Epoch: 10 | Train Loss: 0.0353 Vali Loss: 0.0322
+
+2024-02-20 18:10:42,579 - mse:131.9785, mae:330.9181, ssim:0.2315, psnr:29.1189
