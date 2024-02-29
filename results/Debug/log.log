@@ -2327,3 +2327,153 @@ lr: 	0.01
 2024-02-20 18:10:24,874 - Epoch: 10 | Train Loss: 0.0353 Vali Loss: 0.0322
 
 2024-02-20 18:10:42,579 - mse:131.9785, mae:330.9181, ssim:0.2315, psnr:29.1189
+2024-02-27 16:37:56,261 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	10	
+log_step: 	1	
+lr: 	0.01	
+2024-02-27 16:45:45,981 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	10	
+log_step: 	1	
+lr: 	0.01	
+2024-02-27 16:46:37,586 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	10	
+log_step: 	1	
+lr: 	0.01	
+2024-02-27 20:31:07,027 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	10	
+log_step: 	1	
+lr: 	0.01	
+2024-02-28 13:51:32,690 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	10	
+log_step: 	1	
+lr: 	0.01	
+2024-02-28 14:20:51,211 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	10	
+log_step: 	1	
+lr: 	0.01	
+2024-02-28 14:22:31,157 - 
+device: 	cpu	
+res_dir: 	./results	
+ex_name: 	Debug	
+use_gpu: 	False	
+gpu: 	0	
+seed: 	1	
+batch_size: 	4	
+val_batch_size: 	4	
+data_root: 	./data/	
+dataname: 	mmnist	
+num_workers: 	8	
+in_shape: 	[10, 1, 64, 64]	
+hid_S: 	64	
+hid_T: 	256	
+N_S: 	2	
+N_T: 	4	
+groups: 	4	
+epochs: 	10	
+log_step: 	1	
+lr: 	0.01	
+2024-02-28 14:34:02,120 - vali mse:169.7496, mae:362.5840, ssim:0.7765, psnr:39.6936
+2024-02-28 14:34:02,168 - Epoch: 1 | Train Loss: 0.1015 Vali Loss: 0.0414
+

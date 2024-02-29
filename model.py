@@ -65,8 +65,10 @@ class SimVP(nn.Module):
         z = embed.view(B*H_*W_, C_, T)
        
         patchtst_out = self.patchtst(z)
+       
     
         patchtst_out = patchtst_out.reshape(B*T, C_, H_, W_) #
+        
         
         Y = self.dec(patchtst_out, skip)
         Y = Y.reshape(B, T, C, H, W)
