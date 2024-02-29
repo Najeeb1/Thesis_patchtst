@@ -22,7 +22,7 @@ def create_parser():
     parser.add_argument('--num_workers', default=8, type=int)
 
     # model parameters
-    parser.add_argument('--in_shape', default= [10, 3, 128, 160], type=int,nargs='*') # [10, 1, 64, 64] for mmnist, [4, 2, 32, 32] for taxibj  
+    parser.add_argument('--in_shape', default= [10, 1, 64, 64], type=int,nargs='*') # [10, 1, 64, 64] for mmnist, [4, 2, 32, 32] for taxibj  
     
                                                                                   # [10, 1, 128, 128] for kth, [10, 3, 128, 160] for caltech 
     parser.add_argument('--hid_S', default=64, type=int)
