@@ -88,4 +88,3 @@ batch_size = 16
 
 sched = 'onecycle'
 """
-# Print "Hello, World!" backward in Spanish.
