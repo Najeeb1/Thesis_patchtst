@@ -41,43 +41,6 @@ class Decoder(nn.Module):
         Y = self.readout(Y)
         return Y
 
-# class Mid_Xnet(nn.Module):
-#     def __init__(self, channel_in, channel_hid, N_T, incep_ker = [3,5,3,11], groups=8):
-#         super(Mid_Xnet, self).__init__()
-
-#         self.N_T = N_T
-#         enc_layers = [Inception(channel_in, channel_hid//2, channel_hid, incep_ker= incep_ker, groups=groups)]
-#         for i in range(1, N_T-1):
-#             enc_layers.append(Inception(channel_hid, channel_hid//2, channel_hid, incep_ker= incep_ker, groups=groups))
-#         enc_layers.append(Inception(channel_hid, channel_hid//2, channel_hid, incep_ker= incep_ker, groups=groups))
-
-#         dec_layers = [Inception(channel_hid, channel_hid//2, channel_hid, incep_ker= incep_ker, groups=groups)]
-#         for i in range(1, N_T-1):
-#             dec_layers.append(Inception(2*channel_hid, channel_hid//2, channel_hid, incep_ker= incep_ker, groups=groups))
-#         dec_layers.append(Inception(2*channel_hid, channel_hid//2, channel_in, incep_ker= incep_ker, groups=groups))
-
-#         self.enc = nn.Sequential(*enc_layers)
-#         self.dec = nn.Sequential(*dec_layers)
-
-#     def forward(self, x):
-#         B, T, C, H, W = x.shape
-#         x = x.reshape(B, T*C, H, W)
-
-#         # encoder
-#         skips = []
-#         z = x
-#         for i in range(self.N_T):
-#             z = self.enc[i](z)
-#             if i < self.N_T - 1:
-#                 skips.append(z)
-
-#         # decoder
-#         z = self.dec[0](z)
-#         for i in range(1, self.N_T):
-#             z = self.dec[i](torch.cat([z, skips[-i]], dim=1))
-
-#         y = z.reshape(B, T, C, H, W)
-#         return y
 
 
 class SimVP(nn.Module):
