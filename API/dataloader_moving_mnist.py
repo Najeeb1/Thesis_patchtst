@@ -5,6 +5,7 @@ import random
 import numpy as np
 import torch
 import torch.utils.data as data
+from torch.utils.data import Subset, DataLoader
 
 
 def load_mnist(root):
@@ -151,6 +152,7 @@ def load_data(
                             n_frames_input=10, n_frames_output=10, num_objects=[2])
     test_set = MovingMNIST(root=data_root, is_train=False,
                            n_frames_input=10, n_frames_output=10, num_objects=[2])
+
 
     dataloader_train = torch.utils.data.DataLoader(
         train_set, batch_size=batch_size, shuffle=True, pin_memory=True, num_workers=num_workers)
