@@ -54,7 +54,7 @@ class PatchTST(torch.nn.Module):
         self.n_vars = c_in
 
      
-        self.head = Flatten_Head(d_model, patch_num, 4, head_dropout=head_dropout)
+        self.head = Flatten_Head(d_model, patch_num, 10, head_dropout=head_dropout)
         
     def forward(self, z):                                                                   # z: [bs x seq_len × nvars]
         # instance norm
