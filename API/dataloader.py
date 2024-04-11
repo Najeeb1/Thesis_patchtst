@@ -4,10 +4,10 @@ from .dataloader_moving_mnist import load_data as load_mmnist
 # from .dataloader_kitticaltech import load_data as load_kittical
 
 def load_data(dataname,batch_size, val_batch_size, data_root, num_workers, **kwargs):
-    if dataname == 'taxibj':
+    if dataname == 'mmnist':
         return load_taxibj(batch_size, val_batch_size, data_root, num_workers)
-    elif dataname == 'mmnist':
-        return load_mmnist(batch_size, val_batch_size, data_root, num_workers)
+    # elif dataname == 'taxibj':
+    #     return load_mmnist(batch_size, val_batch_size, data_root, num_workers)
     # elif dataname == 'mmnist':
     #     return load_mmnist(batch_size, val_batch_size, data_root, num_workers)
     # elif dataname == 'kth':
