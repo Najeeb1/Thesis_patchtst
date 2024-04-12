@@ -144,8 +144,11 @@ class Exp:
         total_loss = np.average(total_loss)
         preds = np.concatenate(preds_lst, axis=0)
         trues = np.concatenate(trues_lst, axis=0)
-        mse, mae, ssim, psnr = metric(preds, trues, 0, 1, True)
-        print_log('vali mse:{:.4f}, mae:{:.4f}, ssim:{:.4f}, psnr:{:.4f}'.format(mse, mae, ssim, psnr))
+        # mse, mae, ssim, psnr = metric(preds, trues, 0, 1, True)
+        # print_log('vali mse:{:.4f}, mae:{:.4f}, ssim:{:.4f}, psnr:{:.4f}'.format(mse, mae, ssim, psnr))
+        mse, mae = metric(preds, trues, 0, 1, True)
+        print_log('vali mse:{:.4f}, mae:{:.4f}'.format(mse, mae))
+        
         self.model.train()
         return total_loss
 
@@ -164,8 +167,11 @@ class Exp:
         if not os.path.exists(folder_path):
             os.makedirs(folder_path)
 
-        mse, mae, ssim, psnr = metric(preds, trues, 0, 1, True)
-        print_log('mse:{:.4f}, mae:{:.4f}, ssim:{:.4f}, psnr:{:.4f}'.format(mse, mae, ssim, psnr))
+        # mse, mae, ssim, psnr = metric(preds, trues, 0, 1, True)
+        # print_log('mse:{:.4f}, mae:{:.4f}, ssim:{:.4f}, psnr:{:.4f}'.format(mse, mae, ssim, psnr))
+        mse, mae = metric(preds, trues, 0, 1, True)
+        print_log('vali mse:{:.4f}, mae:{:.4f}'.format(mse, mae))
+        
 
         for np_data in ['inputs', 'trues', 'preds']:
             np.save(osp.join(folder_path, np_data + '.npy'), vars()[np_data])
